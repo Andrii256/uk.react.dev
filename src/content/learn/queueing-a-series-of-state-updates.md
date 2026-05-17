@@ -305,7 +305,7 @@ export default function RequestTracker() {
         Завершено: {completed}
       </h3>
       <button onClick={handleClick}>
-        Придбати     
+        Придбати
       </button>
     </>
   );
@@ -349,7 +349,7 @@ export default function RequestTracker() {
         Завершено: {completed}
       </h3>
       <button onClick={handleClick}>
-        Придбати     
+        Придбати
       </button>
     </>
   );

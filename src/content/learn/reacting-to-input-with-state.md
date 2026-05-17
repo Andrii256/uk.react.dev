@@ -518,7 +518,7 @@ export default function Picture() {
       <img
         className="picture"
         alt="Веселкові будинки в Кампунг Пелангі, Індонезія"
-        src="https://i.imgur.com/5qwVYb1.jpeg"
+        src="https://react.dev/images/docs/scientists/5qwVYb1.jpeg"
       />
     </div>
   );
@@ -594,7 +594,7 @@ export default function Picture() {
         }}
         className={pictureClassName}
         alt="Веселкові будинки в Кампунг Пелангі, Індонезія"
-        src="https://i.imgur.com/5qwVYb1.jpeg"
+        src="https://react.dev/images/docs/scientists/5qwVYb1.jpeg"
       />
     </div>
   );
@@ -649,7 +649,7 @@ export default function Picture() {
         <img
           className="picture picture--active"
           alt="Веселкові будинки в Кампунг Пелангі, Індонезія"
-          src="https://i.imgur.com/5qwVYb1.jpeg"
+          src="https://react.dev/images/docs/scientists/5qwVYb1.jpeg"
           onClick={e => e.stopPropagation()}
         />
       </div>
@@ -660,7 +660,7 @@ export default function Picture() {
       <img
         className="picture"
         alt="Веселкові будинки в Кампунг Пелангі, Індонезія"
-        src="https://i.imgur.com/5qwVYb1.jpeg"
+        src="https://react.dev/images/docs/scientists/5qwVYb1.jpeg"
         onClick={() => setIsActive(true)}
       />
     </div>

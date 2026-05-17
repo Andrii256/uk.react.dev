@@ -50,7 +50,7 @@ const MyInput = forwardRef(function MyInput(props, ref) {
 
 #### Застереження {/*caveats*/}
 
-* У строгому режимі React **викличе вашу функцію для рендеру двічі**, щоб [допомогти вам знаходити побічні ефекти.](/reference/react/useState#my-initializer-or-updater-function-runs-twice) Ця поведінка діє лише під час розробки і не впливає на готовий до впровадження код (production). Якщо ваша функція для рендеру є чистою (якою вона й повинна бути), то ця поведінка не вплине на логіку вашого компонента. Результат одного з викликів буде проігноровано. 
+* У строгому режимі React **викличе вашу функцію для рендеру двічі**, щоб [допомогти вам знаходити побічні ефекти.](/reference/react/useState#my-initializer-or-updater-function-runs-twice) Ця поведінка діє лише під час розробки і не впливає на готовий до впровадження код (production). Якщо ваша функція для рендеру є чистою (якою вона й повинна бути), то ця поведінка не вплине на логіку вашого компонента. Результат одного з викликів буде проігноровано.
 
 
 ---
@@ -336,7 +336,7 @@ const FormField = forwardRef(function FormField({ label, isRequired }, ref) {
         ref={ref}
         label={label}
         value={value}
-        onChange={e => setValue(e.target.value)} 
+        onChange={e => setValue(e.target.value)}
       />
       {(isRequired && value === '') &&
         <i>Обов'язкове поле</i>

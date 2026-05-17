@@ -28,7 +28,7 @@ title: Імпорт та експорт компонентів
 function Profile() {
   return (
     <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
+      src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
       alt="Кетерін Джонсон (Katherine Johnson)"
     />
   );
@@ -80,7 +80,7 @@ export default function App() {
 function Profile() {
   return (
     <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
+      src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
       alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
@@ -118,7 +118,7 @@ img { margin: 0 10px 10px 0; height: 90px; }
 
 Можливо, ви зустрінете файли, які не мають розширення `.js`, як наприклад:
 
-```js 
+```js
 import Gallery from './Gallery';
 ```
 
@@ -200,7 +200,7 @@ export default function App() {
 export function Profile() {
   return (
     <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
+      src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
       alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
@@ -290,7 +290,7 @@ export default function App() {
 export function Profile() {
   return (
     <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
+      src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
       alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
@@ -358,7 +358,7 @@ export default function Gallery() {
 export function Profile() {
   return (
     <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
+      src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
       alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
@@ -408,7 +408,7 @@ export default function Gallery() {
 export default function Profile() {
   return (
     <img
-      src="https://i.imgur.com/QIrZWGIs.jpg"
+      src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
       alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );

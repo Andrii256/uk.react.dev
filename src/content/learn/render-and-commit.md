@@ -54,7 +54,7 @@ root.render(<Image />);
 export default function Image() {
   return (
     <img
-      src="https://i.imgur.com/ZF6s192.jpg"
+      src="https://react.dev/images/docs/scientists/ZF6s192.jpg"
       alt="'Рід квіткові' ('Floralis Genérica') — Едуардо Каталано (Eduardo Catalano): велетенська металева скульптура квітки зі світловідбивними пелюстками"
     />
   );
@@ -103,7 +103,7 @@ export default function Gallery() {
 function Image() {
   return (
     <img
-      src="https://i.imgur.com/ZF6s192.jpg"
+      src="https://react.dev/images/docs/scientists/ZF6s192.jpg"
       alt="'Рід квіткові' ('Floralis Genérica') — Едуардо Каталано (Eduardo Catalano): велетенська металева скульптура квітки зі світловідбивними пелюстками"
     />
   );
@@ -124,8 +124,8 @@ img { margin: 0 10px 10px 0; }
 
 </Sandpack>
 
-* **Під час початкового рендеру** React [створює вузли DOM](https://developer.mozilla.org/docs/Web/API/Document/createElement) для `<section>`, `<h1>` і трьох тегів `<img>`. 
-* **Під час повторного рендеру* React вираховує, які властивості елементів змінилися після попереднього рендеру. Він нічого не робить з цією інформацією до наступного кроку, фази коміту.
+* **Під час початкового рендеру** React [створює вузли DOM](https://developer.mozilla.org/docs/Web/API/Document/createElement) для `<section>`, `<h1>` і трьох тегів `<img>`.
+* **Під час повторного рендеру** React вираховує, які властивості елементів змінилися після попереднього рендеру. Він нічого не робить з цією інформацією до наступного кроку, фази коміту.
 
 <Pitfall>
 

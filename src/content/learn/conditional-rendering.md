@@ -32,17 +32,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -80,17 +80,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -132,17 +132,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -236,17 +236,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -290,17 +290,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -371,17 +371,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -417,17 +417,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -474,17 +474,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -512,17 +512,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          isPacked={true} 
-          name="Космічний костюм" 
+        <Item
+          isPacked={true}
+          name="Космічний костюм"
         />
-        <Item 
-          isPacked={true} 
-          name="Шолом із золотим листям" 
+        <Item
+          isPacked={true}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          isPacked={false} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          isPacked={false}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -560,17 +560,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          importance={9} 
-          name="Космічний костюм" 
+        <Item
+          importance={9}
+          name="Космічний костюм"
         />
-        <Item 
-          importance={0} 
-          name="Шолом із золотим листям" 
+        <Item
+          importance={0}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          importance={6} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          importance={6}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>
@@ -604,17 +604,17 @@ export default function PackingList() {
     <section>
       <h1>Список речей для пакування Саллі Райд(Sally Ride)</h1>
       <ul>
-        <Item 
-          importance={9} 
-          name="Космічний костюм" 
+        <Item
+          importance={9}
+          name="Космічний костюм"
         />
-        <Item 
-          importance={0} 
-          name="Шолом із золотим листям" 
+        <Item
+          importance={0}
+          name="Шолом із золотим листям"
         />
-        <Item 
-          importance={6} 
-          name="Фото Тем О'Шонессі(Tam O'Shaughnessy)" 
+        <Item
+          importance={6}
+          name="Фото Тем О'Шонессі (Tam O'Shaughnessy)"
         />
       </ul>
     </section>

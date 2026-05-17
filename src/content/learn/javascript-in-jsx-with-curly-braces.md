@@ -27,7 +27,7 @@ export default function Avatar() {
   return (
     <img
       className="avatar"
-      src="https://i.imgur.com/7vQD0fPs.jpg"
+      src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
       alt="Грегоріо І. Зара (Gregorio Y. Zara)"
     />
   );
@@ -40,7 +40,7 @@ export default function Avatar() {
 
 </Sandpack>
 
-Тут `"https://i.imgur.com/7vQD0fPs.jpg"` та `"Грегоріо І. Зара (Gregorio Y. Zara)"` передаються як рядки.
+Тут `"https://react.dev/images/docs/scientists/7vQD0fPs.jpg"` та `"Грегоріо І. Зара (Gregorio Y. Zara)"` передаються як рядки.
 
 Але що, якщо ви хочете динамічно вказати `src` або текст `alt`? Ви можете **використовувати значення з JavaScript, замінивши `"` та `"` на `{` та `}`**:
 
@@ -48,7 +48,7 @@ export default function Avatar() {
 
 ```js
 export default function Avatar() {
-  const avatar = 'https://i.imgur.com/7vQD0fPs.jpg';
+  const avatar = 'https://react.dev/images/docs/scientists/7vQD0fPs.jpg';
   const description = 'Грегоріо І. Зара (Gregorio Y. Zara)';
   return (
     <img
@@ -189,7 +189,7 @@ export default function TodoList() {
       <h1>Задачі {person.name}</h1>
       <img
         className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
+        src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
         alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
@@ -265,7 +265,7 @@ export default function TodoList() {
       <h1>Задачі {person}</h1>
       <img
         className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
+        src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
         alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
@@ -313,7 +313,7 @@ export default function TodoList() {
       <h1>Задачі {person.name}</h1>
       <img
         className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
+        src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
         alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
@@ -357,7 +357,7 @@ export default function TodoList() {
       <h1>Задачі {person.name}</h1>
       <img
         className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
+        src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
         alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
@@ -387,7 +387,7 @@ body > div > div { padding: 20px; }
 ```js
 const person = {
   name: 'Грегоріо І. Зара (Gregorio Y. Zara)',
-  imageUrl: "https://i.imgur.com/7vQD0fPs.jpg",
+  imageUrl: "https://react.dev/images/docs/scientists/7vQD0fPs.jpg",
   theme: {
     backgroundColor: 'black',
     color: 'pink'
@@ -427,7 +427,7 @@ body > div > div { padding: 20px; }
 
 У наведеному нижче об'єкті повний URL зображення розбитий на чотири частини: базовий URL, `imageId`, `imageSize`, та розширення файлу.
 
-Ми хочемо, щоб URL зображення комбінував ці атрибути разом: базовий URL (завжди `'https://i.imgur.com/'`), `imageId` (`'7vQD0fP'`), `imageSize` (`'s'`), та розширення файлу (завжди `'.jpg'`). Однак щось неправильно з вказанням `src` у теґу `<img>`.
+Ми хочемо, щоб URL зображення комбінував ці атрибути разом: базовий URL (завжди `'https://react.dev/images/docs/scientists/'`), `imageId` (`'7vQD0fP'`), `imageSize` (`'s'`), та розширення файлу (завжди `'.jpg'`). Однак щось неправильно з вказанням `src` у теґу `<img>`.
 
 Чи можете ви це виправити?
 
@@ -435,7 +435,7 @@ body > div > div { padding: 20px; }
 
 ```js
 
-const baseUrl = 'https://i.imgur.com/';
+const baseUrl = 'https://react.dev/images/docs/scientists/';
 const person = {
   name: 'Грегоріо І. Зара (Gregorio Y. Zara)',
   imageId: '7vQD0fP',
@@ -486,7 +486,7 @@ body > div > div { padding: 20px; }
 <Sandpack>
 
 ```js
-const baseUrl = 'https://i.imgur.com/';
+const baseUrl = 'https://react.dev/images/docs/scientists/';
 const person = {
   name: 'Грегоріо І. Зара (Gregorio Y. Zara)',
   imageId: '7vQD0fP',
@@ -563,7 +563,7 @@ export default function TodoList() {
 ```js src/utils.js
 export function getImageUrl(person) {
   return (
-    'https://i.imgur.com/' +
+    'https://react.dev/images/docs/scientists/' +
     person.imageId +
     person.imageSize +
     '.jpg'
