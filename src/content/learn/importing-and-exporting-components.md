@@ -28,13 +28,8 @@ title: Імпорт та експорт компонентів
 function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Кетерін Джонсон (Katherine Johnson)"
-=======
       src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
-      alt="Katherine Johnson"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Кетерін Джонсон (Katherine Johnson)"
     />
   );
 }
@@ -85,13 +80,8 @@ export default function App() {
 function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }
@@ -210,13 +200,8 @@ export default function App() {
 export function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }
@@ -305,13 +290,8 @@ export default function App() {
 export function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }
@@ -378,13 +358,8 @@ export default function Gallery() {
 export function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }
@@ -433,13 +408,8 @@ export default function Gallery() {
 export default function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }

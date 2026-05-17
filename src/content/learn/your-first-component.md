@@ -63,13 +63,8 @@ React дозволяє вам поєднувати вашу розмітку, CS
 export default function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/MK3eW3Am.jpg"
-      alt="Кетерін Джонсон (Katherine Johnson)"
-=======
       src="https://react.dev/images/docs/scientists/MK3eW3Am.jpg"
-      alt="Katherine Johnson"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Кетерін Джонсон (Katherine Johnson)"
     />
   )
 }
@@ -103,11 +98,7 @@ React компоненти є звичайними JavaScript функціями
 Оператори повернення можуть бути записані в одному рядку, як у цьому компоненті:
 
 ```js
-<<<<<<< HEAD
-return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />;
-=======
-return <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Katherine Johnson" />;
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+return <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />;
 ```
 
 Але якщо ваша розмітка не розташована в тому ж рядку, що й ключове слово `return` ви повинні обгорнути її в пару дужок:
@@ -115,11 +106,7 @@ return <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Kat
 ```js
 return (
   <div>
-<<<<<<< HEAD
-    <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
-=======
-    <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Katherine Johnson" />
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+    <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
   </div>
 );
 ```
@@ -140,13 +127,8 @@ return (
 function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Кетерін Джонсон (Katherine Johnson)"
-=======
       src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
-      alt="Katherine Johnson"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Кетерін Джонсон (Katherine Johnson)"
     />
   );
 }
@@ -180,17 +162,10 @@ img { margin: 0 10px 10px 0; height: 90px; }
 
 ```html
 <section>
-<<<<<<< HEAD
   <h1>Видатні вчені</h1>
-  <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
-  <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
-  <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
-=======
-  <h1>Amazing scientists</h1>
-  <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Katherine Johnson" />
-  <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Katherine Johnson" />
-  <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Katherine Johnson" />
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
+  <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
+  <img src="https://react.dev/images/docs/scientists/MK3eW3As.jpg" alt="Кетерін Джонсон (Katherine Johnson)" />
 </section>
 ```
 
@@ -272,13 +247,8 @@ function Profile() {
 function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/lICfvbD.jpg"
-      alt="Аклілу Лемма (Aklilu Lemma)"
-=======
       src="https://react.dev/images/docs/scientists/lICfvbD.jpg"
-      alt="Aklilu Lemma"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Аклілу Лемма (Aklilu Lemma)"
     />
   );
 }
@@ -302,13 +272,8 @@ img { height: 181px; }
 export default function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/lICfvbD.jpg"
-      alt="Аклілу Лемма (Aklilu Lemma)"
-=======
       src="https://react.dev/images/docs/scientists/lICfvbD.jpg"
-      alt="Aklilu Lemma"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Аклілу Лемма (Aklilu Lemma)"
     />
   );
 }
@@ -340,11 +305,7 @@ img { height: 181px; }
 ```js
 export default function Profile() {
   return
-<<<<<<< HEAD
-    <img src="https://i.imgur.com/jA8hHMpm.jpg" alt="Кацуко Сарухаші (Katsuko Saruhashi)" />;
-=======
-    <img src="https://react.dev/images/docs/scientists/jA8hHMpm.jpg" alt="Katsuko Saruhashi" />;
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+    <img src="https://react.dev/images/docs/scientists/jA8hHMpm.jpg" alt="Кацуко Сарухаші (Katsuko Saruhashi)" />;
 }
 ```
 
@@ -362,11 +323,7 @@ img { height: 180px; }
 
 ```js
 export default function Profile() {
-<<<<<<< HEAD
-  return <img src="https://i.imgur.com/jA8hHMpm.jpg" alt="Кацуко Сарухаші (Katsuko Saruhashi)" />;
-=======
-  return <img src="https://react.dev/images/docs/scientists/jA8hHMpm.jpg" alt="Katsuko Saruhashi" />;
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  return <img src="https://react.dev/images/docs/scientists/jA8hHMpm.jpg" alt="Кацуко Сарухаші (Katsuko Saruhashi)" />;
 }
 ```
 
@@ -383,15 +340,9 @@ img { height: 180px; }
 ```js
 export default function Profile() {
   return (
-<<<<<<< HEAD
-    <img 
-      src="https://i.imgur.com/jA8hHMpm.jpg" 
-      alt="Кацуко Сарухаші (Katsuko Saruhashi)"
-=======
     <img
       src="https://react.dev/images/docs/scientists/jA8hHMpm.jpg"
-      alt="Katsuko Saruhashi"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Кацуко Сарухаші (Katsuko Saruhashi)"
     />
   );
 }
@@ -415,13 +366,8 @@ img { height: 180px; }
 function profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }
@@ -456,13 +402,8 @@ img { margin: 0 10px 10px 0; height: 90px; }
 function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }

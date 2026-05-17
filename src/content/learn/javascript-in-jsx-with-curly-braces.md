@@ -27,13 +27,8 @@ export default function Avatar() {
   return (
     <img
       className="avatar"
-<<<<<<< HEAD
-      src="https://i.imgur.com/7vQD0fPs.jpg"
-      alt="Грегоріо І. Зара (Gregorio Y. Zara)"
-=======
       src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
-      alt="Gregorio Y. Zara"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Грегоріо І. Зара (Gregorio Y. Zara)"
     />
   );
 }
@@ -45,11 +40,7 @@ export default function Avatar() {
 
 </Sandpack>
 
-<<<<<<< HEAD
-Тут `"https://i.imgur.com/7vQD0fPs.jpg"` та `"Грегоріо І. Зара (Gregorio Y. Zara)"` передаються як рядки.
-=======
-Here, `"https://react.dev/images/docs/scientists/7vQD0fPs.jpg"` and `"Gregorio Y. Zara"` are being passed as strings.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+Тут `"https://react.dev/images/docs/scientists/7vQD0fPs.jpg"` та `"Грегоріо І. Зара (Gregorio Y. Zara)"` передаються як рядки.
 
 Але що, якщо ви хочете динамічно вказати `src` або текст `alt`? Ви можете **використовувати значення з JavaScript, замінивши `"` та `"` на `{` та `}`**:
 
@@ -57,13 +48,8 @@ Here, `"https://react.dev/images/docs/scientists/7vQD0fPs.jpg"` and `"Gregorio Y
 
 ```js
 export default function Avatar() {
-<<<<<<< HEAD
-  const avatar = 'https://i.imgur.com/7vQD0fPs.jpg';
-  const description = 'Грегоріо І. Зара (Gregorio Y. Zara)';
-=======
   const avatar = 'https://react.dev/images/docs/scientists/7vQD0fPs.jpg';
-  const description = 'Gregorio Y. Zara';
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  const description = 'Грегоріо І. Зара (Gregorio Y. Zara)';
   return (
     <img
       className="avatar"
@@ -203,13 +189,8 @@ export default function TodoList() {
       <h1>Задачі {person.name}</h1>
       <img
         className="avatar"
-<<<<<<< HEAD
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
-=======
         src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
         <li>Покращити відеотелефон</li>
@@ -284,13 +265,8 @@ export default function TodoList() {
       <h1>Задачі {person}</h1>
       <img
         className="avatar"
-<<<<<<< HEAD
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
-=======
         src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
         <li>Покращити відеотелефон</li>
@@ -337,13 +313,8 @@ export default function TodoList() {
       <h1>Задачі {person.name}</h1>
       <img
         className="avatar"
-<<<<<<< HEAD
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
-=======
         src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
         <li>Покращити відеотелефон</li>
@@ -386,13 +357,8 @@ export default function TodoList() {
       <h1>Задачі {person.name}</h1>
       <img
         className="avatar"
-<<<<<<< HEAD
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
-=======
         src="https://react.dev/images/docs/scientists/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        alt="Грегоріо І. Зара (Gregorio Y. Zara)"
       />
       <ul>
         <li>Покращити відеотелефон</li>
@@ -420,13 +386,8 @@ body > div > div { padding: 20px; }
 
 ```js
 const person = {
-<<<<<<< HEAD
   name: 'Грегоріо І. Зара (Gregorio Y. Zara)',
-  imageUrl: "https://i.imgur.com/7vQD0fPs.jpg",
-=======
-  name: 'Gregorio Y. Zara',
   imageUrl: "https://react.dev/images/docs/scientists/7vQD0fPs.jpg",
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
   theme: {
     backgroundColor: 'black',
     color: 'pink'
@@ -466,11 +427,7 @@ body > div > div { padding: 20px; }
 
 У наведеному нижче об'єкті повний URL зображення розбитий на чотири частини: базовий URL, `imageId`, `imageSize`, та розширення файлу.
 
-<<<<<<< HEAD
-Ми хочемо, щоб URL зображення комбінував ці атрибути разом: базовий URL (завжди `'https://i.imgur.com/'`), `imageId` (`'7vQD0fP'`), `imageSize` (`'s'`), та розширення файлу (завжди `'.jpg'`). Однак щось неправильно з вказанням `src` у теґу `<img>`.
-=======
-We want the image URL to combine these attributes together: base URL (always `'https://react.dev/images/docs/scientists/'`), `imageId` (`'7vQD0fP'`), `imageSize` (`'s'`), and file extension (always `'.jpg'`). However, something is wrong with how the `<img>` tag specifies its `src`.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+Ми хочемо, щоб URL зображення комбінував ці атрибути разом: базовий URL (завжди `'https://react.dev/images/docs/scientists/'`), `imageId` (`'7vQD0fP'`), `imageSize` (`'s'`), та розширення файлу (завжди `'.jpg'`). Однак щось неправильно з вказанням `src` у теґу `<img>`.
 
 Чи можете ви це виправити?
 

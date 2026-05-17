@@ -32,13 +32,8 @@ React-застосунки створені з ізольованих части
 function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Кетрін Джонсон (Katherine Johnson)"
-=======
       src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
-      alt="Katherine Johnson"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Кетрін Джонсон (Katherine Johnson)"
     />
   );
 }
@@ -103,13 +98,8 @@ export default function Gallery() {
 export default function Profile() {
   return (
     <img
-<<<<<<< HEAD
-      src="https://i.imgur.com/QIrZWGIs.jpg"
-      alt="Алан Л. Гарт (Alan L. Hart)"
-=======
       src="https://react.dev/images/docs/scientists/QIrZWGIs.jpg"
-      alt="Alan L. Hart"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+      alt="Алан Л. Гарт (Alan L. Hart)"
     />
   );
 }
@@ -170,13 +160,8 @@ export default function TodoList() {
     <>
       <h1>Список завдань Геді Ламар</h1>
       <img
-<<<<<<< HEAD
-        src="https://i.imgur.com/yXOvdOSs.jpg"
-        alt="Геді Ламар (Hedy Lamarr)"
-=======
         src="https://react.dev/images/docs/scientists/yXOvdOSs.jpg"
-        alt="Hedy Lamarr"
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        alt="Геді Ламар (Hedy Lamarr)"
         className="photo"
       />
       <ul>
@@ -541,15 +526,9 @@ export default function TeaSet() {
 
 ## Ваш UI як дерево {/*your-ui-as-a-tree*/}
 
-<<<<<<< HEAD
 React використовує дерева для моделювання зв'язків між компонентами та модулями.
 
 Дерево рендерингу React — це представлення батьківського та дочірнього зв'язку між компонентами.
-=======
-React uses trees to model the relationships between components and modules.
-
-A React render tree is a representation of the parent and child relationship between components.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
 
 <Diagram name="generic_render_tree" height={250} width={500} alt="Граф дерева із п'ятьма вузлами, де кожен вузол відповідає компоненту. Кореневий вузол розташований у верхній частині графа дерева та позначений як 'Root Component'. Він має дві стрілки, що тягнуться до двох вузлів, позначених як 'Component A' і 'Component C'. Кожна зі стрілок позначена як 'renders'. 'Component A' має одну стрілку з поміткою 'renders' до вузла, позначеного як 'Component B'. 'Component C' має одну стрілку з поміткою 'renders' до вузла, позначеного як 'Component D'.">
 
@@ -559,11 +538,7 @@ A React render tree is a representation of the parent and child relationship bet
 
 Компоненти, розташовані біля вершини дерева, поблизу кореневого компонента, вважаються верхніми або найвищого рівня (top-level). Компоненти без дочірніх компонентів є листовими компонентами. Ця категоризація компонентів корисна для розуміння потоку даних і продуктивності рендерингу.
 
-<<<<<<< HEAD
 Моделювання зв'язків між модулями JavaScript — ще один корисний спосіб зрозуміти вашу програму. Ми називаємо це деревом залежностей модулів.
-=======
-Modelling the relationship between JavaScript modules is another useful way to understand your app. We refer to it as a module dependency tree.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
 
 <Diagram name="generic_dependency_tree" height={250} width={500} alt="Граф дерева із п'ятьма вузлами. Кожен вузол відповідає модулю JavaScript. Вузол у верхній частині позначено 'RootModule.js'. Він має три стрілки, що тягнуться до вузлів: 'ModuleA.js', 'ModuleB.js' і 'ModuleC.js'. Кожна стрілка позначена як 'imports'. Вузол 'ModuleC.js' має одну стрілку 'imports', яка напрямлена до вузла із міткою 'ModuleD.js'.">
 
@@ -571,11 +546,7 @@ Modelling the relationship between JavaScript modules is another useful way to u
 
 </Diagram>
 
-<<<<<<< HEAD
 Дерево залежностей часто використовується бандлерами, щоб запакувати весь актуальний код JavaScript для завантаження та рендерингу клієнтом. Великий розмір бандла погіршує досвід користування React-застосунками. Розуміння дерева залежностей модулів корисно для усунення таких проблем.
-=======
-A dependency tree is often used by build tools to bundle all the relevant JavaScript code for the client to download and render. A large bundle size regresses user experience for React apps. Understanding the module dependency tree is helpful to debug such issues.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
 
 <LearnMore path="/learn/understanding-your-ui-as-a-tree">
 

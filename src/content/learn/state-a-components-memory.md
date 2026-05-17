@@ -40,19 +40,11 @@ export default function Gallery() {
         Наступна
       </button>
       <h2>
-<<<<<<< HEAD
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         — {sculpture.artist}
       </h2>
-      <h3>  
-        ({index + 1} із {sculptureList.length})
-=======
-        <i>{sculpture.name} </i>
-        by {sculpture.artist}
-      </h2>
       <h3>
-        ({index + 1} of {sculptureList.length})
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        ({index + 1} із {sculptureList.length})
       </h3>
       <img
         src={sculpture.url}
@@ -68,151 +60,77 @@ export default function Gallery() {
 
 ```js src/data.js
 export const sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 ```
 
@@ -302,19 +220,11 @@ export default function Gallery() {
         Наступна
       </button>
       <h2>
-<<<<<<< HEAD
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         — {sculpture.artist}
       </h2>
-      <h3>  
-        ({index + 1} із {sculptureList.length})
-=======
-        <i>{sculpture.name} </i>
-        by {sculpture.artist}
-      </h2>
       <h3>
-        ({index + 1} of {sculptureList.length})
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        ({index + 1} із {sculptureList.length})
       </h3>
       <img
         src={sculpture.url}
@@ -330,151 +240,77 @@ export default function Gallery() {
 
 ```js src/data.js
 export const sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 ```
 
@@ -525,11 +361,7 @@ const [index, setIndex] = useState(0);
 
 </Note>
 
-<<<<<<< HEAD
 Єдиний аргумент у `useState` — це **початкове значення** вашої змінної стану. У цьому прикладі для `index` задане початкове значення `0` за допомогою `useState(0)`.
-=======
-The only argument to `useState` is the **initial value** of your state variable. In this example, the `index`'s initial value is set to `0` with `useState(0)`.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
 
 Під час кожного рендеру вашого компонента, `useState` надає вам масив із двома значеннями:
 
@@ -576,19 +408,11 @@ export default function Gallery() {
         Наступна
       </button>
       <h2>
-<<<<<<< HEAD
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         — {sculpture.artist}
       </h2>
-      <h3>  
-        ({index + 1} із {sculptureList.length})
-=======
-        <i>{sculpture.name} </i>
-        by {sculpture.artist}
-      </h2>
       <h3>
-        ({index + 1} of {sculptureList.length})
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        ({index + 1} із {sculptureList.length})
       </h3>
       <button onClick={handleMoreClick}>
         {showMore ? 'Приховати' : 'Показати'} подробиці
@@ -605,151 +429,77 @@ export default function Gallery() {
 
 ```js src/data.js
 export const sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 ```
 
@@ -875,151 +625,77 @@ let moreButton = document.getElementById('moreButton');
 let description = document.getElementById('description');
 let image = document.getElementById('image');
 let sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 
 // Оновлюємо UI відповідно до початкового стану.
@@ -1097,19 +773,11 @@ export default function Gallery() {
         Наступна
       </button>
       <h2>
-<<<<<<< HEAD
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         — {sculpture.artist}
       </h2>
-      <h3>  
-        ({index + 1} із {sculptureList.length})
-=======
-        <i>{sculpture.name} </i>
-        by {sculpture.artist}
-      </h2>
       <h3>
-        ({index + 1} of {sculptureList.length})
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        ({index + 1} із {sculptureList.length})
       </h3>
       <button onClick={handleMoreClick}>
         {showMore ? 'Приховати' : 'Показати'} подробиці
@@ -1126,151 +794,77 @@ export default function Gallery() {
 
 ```js src/data.js
 export const sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 ```
 
@@ -1350,19 +944,11 @@ export default function Gallery() {
         Наступна
       </button>
       <h2>
-<<<<<<< HEAD
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         — {sculpture.artist}
       </h2>
-      <h3>  
-        ({index + 1} із {sculptureList.length})
-=======
-        <i>{sculpture.name} </i>
-        by {sculpture.artist}
-      </h2>
       <h3>
-        ({index + 1} of {sculptureList.length})
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        ({index + 1} із {sculptureList.length})
       </h3>
       <button onClick={handleMoreClick}>
         {showMore ? 'Приховати' : 'Показати'} подробиці
@@ -1379,151 +965,77 @@ export default function Gallery() {
 
 ```js src/data.js
 export const sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 ```
 
@@ -1594,19 +1106,11 @@ export default function Gallery() {
         Наступна
       </button>
       <h2>
-<<<<<<< HEAD
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         — {sculpture.artist}
       </h2>
-      <h3>  
-        ({index + 1} із {sculptureList.length})
-=======
-        <i>{sculpture.name} </i>
-        by {sculpture.artist}
-      </h2>
       <h3>
-        ({index + 1} of {sculptureList.length})
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+        ({index + 1} із {sculptureList.length})
       </h3>
       <button onClick={handleMoreClick}>
         {showMore ? 'Приховати' : 'Показати'} подробиці
@@ -1623,151 +1127,77 @@ export default function Gallery() {
 
 ```js src/data.js hidden
 export const sculptureList = [{
-<<<<<<< HEAD
   name: 'Данина нейрохірургії (Homenaje a la Neurocirugía)',
   artist: 'Марта Колвін (Marta Colvin Andrade)',
   description: 'Хоча Колвін переважно відома абстрактною тематикою з натяком на символи доіспанського періоду, ця величезна скульптура, присвячена нейрохірургії, є однією з її найвідоміших публічних робіт.',
-  url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'  
+  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
+  alt: 'Бронзова статуя двох перехрещених рук, які делікатно тримають людський мозок кінцями пальців.'
 }, {
   name: 'Рід квіткові (Floralis Genérica)',
   artist: 'Едуардо Каталано (Eduardo Catalano)',
   description: 'Ця велетенська (висотою 75 футів або 23 м) срібна квітка знаходиться в Буенос-Айресі. Вона рухома і може закривати свої пелюстки ввечері або під час сильного вітру та відкривати їх зранку.',
-  url: 'https://i.imgur.com/ZF6s192m.jpg',
+  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
   alt: 'Велетенська металева скульптура квітки зі світловідбивними, схожими на дзеркало пелюстками і міцними тичинками.'
 }, {
   name: 'Вічна присутність (Eternal Presence)',
   artist: 'Джон Вілсон (John Woodrow Wilson)',
   description: 'Вілсон був відомий своєю зацікавленістю у рівності, соціальній справедливості, а також в основних і духовних якостях людства. Ця масивна (висотою 7 футів або 2.13 м) бронзова скульптура зображає те, що він описав як "символічна присутність темношкірих, що наповнена почуттям універсальної людяності".',
-  url: 'https://i.imgur.com/aTtVpES.jpg',
+  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
   alt: 'Скульптура людської голови, що здається всюдисущою і поважною. Вона випромінює спокій і мир.'
 }, {
   name: 'Моаї (Moai)',
   artist: 'Невідомий автор',
   description: 'На острові Пасхи розташовано близько тисячі моаї — збережені до нашого часу монументальні статуї, створені першими рапануйцями, які, як деякі вважають, представляли "божественних" предків.',
-  url: 'https://i.imgur.com/RCwLEoQm.jpg',
+  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
   alt: 'Три монументальні кам\'яні бюсти з головами, що є непропорційно великими і мають насуплені обличчя.'
 }, {
   name: 'Синя "нана́" (Blue Nana)',
   artist: 'Нікі де Сен Фаль (Niki de Saint Phalle)',
   description: 'Нани (від фр. Nana — сленг: "жіночка") — це врочисті створіння, символи жіночності та материнства. Спочатку Сен Фаль використовувала тканину і наявні предмети (found objects) для нан, а потім додала поліестер, щоб зробити їх більш яскравими.',
-  url: 'https://i.imgur.com/Sd1AgUOm.jpg',
+  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
   alt: 'Велика мозаїчна скульптура вигадливої жіночої постаті у кольоровому костюмі, що танцює і випромінює радість.'
 }, {
   name: 'Довершена форма (Ultimate Form)',
   artist: 'Барбара Хепворт (Barbara Hepworth)',
   description: 'Ця абстрактна бронзова скульптура є частиною серії "Родина Людей" ("The Family of Man"), розташованої в парку скульптур у Йоркширі. Хепворт вирішила не створювати буквальні зображення світу, а розвивати абстрактні форми, натхненні людьми та пейзажами.',
-  url: 'https://i.imgur.com/2heNQDcm.jpg',
+  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
   alt: 'Висока скульптура з трьох поставлених один на одного елементів, що нагадує постать людини.'
 }, {
   name: 'Воїн (Cavaliere)',
   artist: 'Ламіді Факеє (Lamidi Olonade Fakeye)',
   description: "Роботи Факеє, різьбяра по дереву у четвертому поколінні, поєднують традиційні та сучасні теми народу Йоруба.",
-  url: 'https://i.imgur.com/wIdGuZwm.png',
+  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
   alt: 'Деталізована дерев\'яна скульптура воїна із зосередженим обличчям на коні, прикрашеному візерунками.'
 }, {
   name: 'Великі животи (Big Bellies)',
   artist: 'Аліна Шапочніков (Alina Szapocznikow)',
   description: 'Шапочніков відома своїми скульптурами фрагментів тіла як метафори крихкості та непостійності молодості і краси. Ця скульптура зображує два розташовані один над одним дуже реалістичних великих животи висотою приблизно п\'ять футів (1.5 м) кожен.',
-  url: 'https://i.imgur.com/AlHTAdDm.jpg',
+  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
   alt: 'Скульптура нагадує каскад складок, що зовсім не схоже на животи у класичних скульптурах.'
 }, {
   name: 'Теракотова армія (Terracotta Army)',
   artist: 'Невідомий автор',
   description: 'Теракотова армія — це колекція теракотових скульптур, що зображають війська Цінь Ши Хуан-ді, першого імператора Китаю. Армія складалася з понад 8 000 солдатів, 130 колісниць із 520 кіньми та 150 одиниць кінноти.',
-  url: 'https://i.imgur.com/HMFmH6m.jpg',
+  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
   alt: '12 теракотових скульптур суворих воїнів, кожен з унікальним виразом обличчя та бронею.'
 }, {
   name: 'Місячний пейзаж (Lunar Landscape)',
   artist: 'Луїза Невельсон (Louise Nevelson)',
   description: 'Невельсон була відома тим, що знаходила матеріали серед відходів Нью-Йорка, які вона потім збирала в монументальні споруди. У цій роботі вона використала різнорідні частини, як-от стійку ліжка, булаву для жонглювання та фрагмент сидіння, прибивши та вклеївши їх у коробки, які відображають вплив геометричної абстракції простору та форми кубізму.',
-  url: 'https://i.imgur.com/rN7hY6om.jpg',
+  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
   alt: 'Чорна матова скульптура, в якій окремі елементи неможливо розрізнити на початку споглядання.'
 }, {
   name: 'Ореол (Aureole)',
   artist: 'Ранджані Шеттар (Ranjani Shettar)',
   description: 'Шеттар поєднує традиційне та сучасне, природне та індустріальне. Її творчість зосереджена на стосунках між людиною та природою. Її роботи описують як переконливі і абстрактно, і образно, як ті, що кидають виклик гравітації, та як "тонкий синтез нетипових матеріалів".',
-  url: 'https://i.imgur.com/okTpbHhm.jpg',
+  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
   alt: 'Бліда подібна до дротів скульптура, що встановлена на бетонній стіні та спадає додолу. Здається легкою.'
 }, {
   name: 'Бегемоти (Hippos)',
   artist: 'Зоопарк Тайбею (Taipei Zoo)',
   description: 'Зоопарк Тайбею замовив площу бегемотів із зануреними бегемотами під час гри.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
-=======
-  name: 'Homenaje a la Neurocirugía',
-  artist: 'Marta Colvin Andrade',
-  description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-  url: 'https://react.dev/images/docs/scientists/Mx7dA2Y.jpg',
-  alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-}, {
-  name: 'Floralis Genérica',
-  artist: 'Eduardo Catalano',
-  description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-  url: 'https://react.dev/images/docs/scientists/ZF6s192m.jpg',
-  alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
-}, {
-  name: 'Eternal Presence',
-  artist: 'John Woodrow Wilson',
-  description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-  url: 'https://react.dev/images/docs/scientists/aTtVpES.jpg',
-  alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-}, {
-  name: 'Moai',
-  artist: 'Unknown Artist',
-  description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-  url: 'https://react.dev/images/docs/scientists/RCwLEoQm.jpg',
-  alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
-}, {
-  name: 'Blue Nana',
-  artist: 'Niki de Saint Phalle',
-  description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-  url: 'https://react.dev/images/docs/scientists/Sd1AgUOm.jpg',
-  alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
-}, {
-  name: 'Ultimate Form',
-  artist: 'Barbara Hepworth',
-  description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-  url: 'https://react.dev/images/docs/scientists/2heNQDcm.jpg',
-  alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-}, {
-  name: 'Cavaliere',
-  artist: 'Lamidi Olonade Fakeye',
-  description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-  url: 'https://react.dev/images/docs/scientists/wIdGuZwm.png',
-  alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-}, {
-  name: 'Big Bellies',
-  artist: 'Alina Szapocznikow',
-  description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-  url: 'https://react.dev/images/docs/scientists/AlHTAdDm.jpg',
-  alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
-}, {
-  name: 'Terracotta Army',
-  artist: 'Unknown Artist',
-  description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-  url: 'https://react.dev/images/docs/scientists/HMFmH6m.jpg',
-  alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-}, {
-  name: 'Lunar Landscape',
-  artist: 'Louise Nevelson',
-  description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-  url: 'https://react.dev/images/docs/scientists/rN7hY6om.jpg',
-  alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
-}, {
-  name: 'Aureole',
-  artist: 'Ranjani Shettar',
-  description: 'Shettar merges the traditional and the modern, the natural and the industrial. Her art focuses on the relationship between man and nature. Her work was described as compelling both abstractly and figuratively, gravity defying, and a "fine synthesis of unlikely materials."',
-  url: 'https://react.dev/images/docs/scientists/okTpbHhm.jpg',
-  alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
-}, {
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
   url: 'https://react.dev/images/docs/scientists/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  alt: 'Група бронзових скульптур бегемота, що виринає з тротуару, ніби вони пливуть.'
 }];
 ```
 
@@ -2016,11 +1446,7 @@ export default function FeedbackForm() {
 
 Спробуйте перемістити другий виклик `useState` після умови `if` і пересвідчитися, як це знову зламає програму.
 
-<<<<<<< HEAD
-Якщо ваш лінтер [налаштований для React](/learn/editor-setup#linting), ви повинні побачити помилку від нього, коли робите щось подібне. Якщо ж ви не бачите помилки, коли перевіряєте неправильний код локально, вам потрібно налаштувати лінтинг для вашого проєкту. 
-=======
-If your linter is [configured for React](/learn/editor-setup#linting), you should see a lint error when you make a mistake like this. If you don't see an error when you try the faulty code locally, you need to set up linting for your project.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+Якщо ваш лінтер [налаштований для React](/learn/editor-setup#linting), ви повинні побачити помилку від нього, коли робите щось подібне. Якщо ж ви не бачите помилки, коли перевіряєте неправильний код локально, вам потрібно налаштувати лінтинг для вашого проєкту.
 
 </Solution>
 

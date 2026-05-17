@@ -139,7 +139,7 @@ const [enabled, setEnabled] = useState(false);
 
 У цьому прикладі тип `boolean` буде заданий для змінної `enabled`, а `setEnabled` буде функцією, яка приймає або аргумент типу `boolean`, або функцію, що повертає `boolean`. Якщо ви хочете явно вказати тип для стану, передайте аргумент типу у виклику `useState`:
 
-```ts 
+```ts
 // Явно задати тип "boolean"
 const [enabled, setEnabled] = useState<boolean>(false);
 ```

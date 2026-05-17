@@ -4,11 +4,7 @@ title: <Fragment> (<>...</>)
 
 <Intro>
 
-<<<<<<< HEAD
 `<Fragment>`, часто використовується за допомогою синтаксису `<>...</>`, дозволяє групувати елементи без елементу-обгортки.
-=======
-`<Fragment>`, often used via `<>...</>` syntax, lets you group elements without a wrapper node.
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
 
 <Canary> Fragments can also accept refs, which enable interacting with underlying DOM nodes without adding wrapper elements. See reference and usage below.</Canary>
 

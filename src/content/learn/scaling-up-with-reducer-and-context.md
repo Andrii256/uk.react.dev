@@ -802,11 +802,7 @@ export default function AddTask() {
           id: nextId++,
           text: text,
         });
-<<<<<<< HEAD
       }}>Додати</button>
-=======
-      }}>Add</button>
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
     </>
   );
 }
@@ -1030,11 +1026,7 @@ export default function AddTask() {
           id: nextId++,
           text: text,
         });
-<<<<<<< HEAD
       }}>Додати</button>
-=======
-      }}>Add</button>
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
     </>
   );
 }
@@ -1253,11 +1245,7 @@ export default function AddTask() {
           id: nextId++,
           text: text,
         });
-<<<<<<< HEAD
       }}>Додати</button>
-=======
-      }}>Add</button>
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
     </>
   );
 }

@@ -97,7 +97,7 @@ Warning: Each child in a list should have a unique "key" prop. (Попередж
 
 ## Фільтрування елементів масиву {/*filtering-arrays-of-items*/}
 
-Наші дані можна структурувати більш досвідчено. 
+Наші дані можна структурувати більш досвідчено.
 
 ```js
 const people = [{
@@ -114,13 +114,8 @@ const people = [{
   profession: 'фізик',
 }, {
   id: 3,
-<<<<<<< HEAD
   name: 'Персі Джуліан (Percy Lavon Julian)',
-  profession: 'хімік',  
-=======
-  name: 'Percy Lavon Julian',
-  profession: 'chemist',
->>>>>>> abe931a8cb3aee3e8b15ef7e187214789164162a
+  profession: 'хімік',
 }, {
   id: 4,
   name: 'Субрахманьян Чандрасекар (Subrahmanyan Chandrasekhar)',
